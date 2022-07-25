@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newsApp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <!-- linking the bootstrap library along with the library for icons -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="m-0 p-0" id="mainbody">
+    <div class="container-fluid m-0 p-0">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand text-success" href="#">DailyBugle</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="#general" id="general">General
+                                <span class="sr-only">(general News)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="#sports" id="sports">Sports
+                                <span class="sr-only">(Sport News)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="#business" id="business">Business
+                                <span class="sr-only">(Business News)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="#technology" id="technology">Technology
+                                <span class="sr-only">(Technology News)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="#entertainment" id="entertainment">Entertainment
+                                <span class="sr-only">(entertainment News)</span></a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" id="newsSearch" placeholder="Search for News"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0 " type="button"
+                            id="searchBtn">&#128269</button>
+                    </form>
+                </div>
+            </nav>
+        </div> <!-- navbar div ends here-->
+        <div id="newsbody">
+            <div class="row m-3" id="newsDetails">
+                <!-- USE THIS SECTION TO ADD newsDetails.innerHTML to js to create headline for page-->
+            </div>
+            <div class="row me-auto ms-auto" id="newsData">
+            </div>
+
+        </div> <!-- news div ends here-->
+
+        <div class="footer-basic">
+            <footer>
+                <div class="social">
+                    <a href="https://www.instagram.com/l4r4ib/?hl=en"><i class="icon ion-social-instagram"></i></a>
+                    <a href="https://www.snapchat.com/add/lara-1b?share_id=s9Dxlp8QkS0&locale=en-US"><i class="icon ion-social-snapchat"></i></a>
+                    <a href="https://twitter.com/l4r4ib"><i class="icon ion-social-twitter"></i></a>
+                    <a href="https://m.facebook.com/100008521927567/"><i class="icon ion-social-facebook"></i></a>
+                            
+                        </div>
+                
+                <p class="copyright">Made by Laraib Shuja</p>
+            </footer>
+        </div>
+        <!--footer div ends here-->
+    </div>
+    <script src="app.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>
